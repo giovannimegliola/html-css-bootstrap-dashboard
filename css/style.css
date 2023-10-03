@@ -1,3 +1,6 @@
+/*General*/
+
+
 :root{
     --color-bg-search-bar: #e5e5e5;
     --color-bg-body: #f8f9fa;
@@ -26,15 +29,59 @@ main{
     display: flex;
 }
 
-#sidebar{
-    width: 150px;
-    height: 100%;
-    background-color: var(--color-side-bar);
-    background-image: url("../img/sidebar-bg.png");
-}
 
 #main-content{
     width: calc(100% - 150px);
     overflow-y: auto;
 }
+
+/*Sidebar*/
+
+#sidebar{
+    width: 150px;
+    height: 100%;
+    background-color: var(--color-side-bar);
+    background-image: url("../img/sidebar-bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-top{
+    width: 150px;
+}
+
+.sidebar-bottom{
+    width: 150px;
+}
+
+.sidebar-top a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.sidebar-top ul{
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.sidebar-top i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.sidebar-bottom a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: 2rem;
+}
+
+.sidebar-bottom i{
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 
