@@ -17,7 +17,7 @@
 
     <div class="wrapper">
 
-            <header class="d-flex align-items-center">
+            <header class="d-flex align-items-center bg-white">
                 <div class="container-fluid">
                     <div class="row bg-white align-items-center">
                         <div class="col-auto">                            
@@ -37,12 +37,11 @@
                         <div class="col-auto">
                             <div class="flex-shrink-0">
                                 <a href="#" class="d-block link-dark text-decoration-none">
-                                  <i class="fa-solid fa-list d_none mr_10"></i>
-                                  <i class="fa-solid fa-circle-question d_none mr_10"></i>
-                                  <i class="fa-solid fa-ellipsis-vertical d_none mr_10"></i>
+                                  <i class="fa-solid fa-list d_none mr_15"></i>
+                                  <i class="fa-solid fa-circle-question d_none mr_15"></i>
+                                  <i class="fa-solid fa-ellipsis-vertical d_none mr_15"></i>
                                   <i class="fa-solid fa-bell bell"></i>
-                                </a>
-                                
+                                </a>                               
                             </div>
                         </div>
                     </div>                    
@@ -78,23 +77,40 @@
 
             <div id="main-content">
                 <section id="main-nav" class="bg-primary">
-                    <div class="container text-light">
-                        <div class="row">
-                          <div class="col  py-3">
-                            <h2>Boolean</h2>
-                          </div>
-                          <div class="col py-3">
-                            <div>Studenti online negli ultimi 30 minuti</div>
-                            <div class="fs-2">125</div>
-                          </div>
-                          <div class="col  py-3">
-                            <span>Nuovo studente</span>
-                            <button class="btn btn-primary border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
-                          </div>
 
+                    <div class="container-fluid">
+                        <div class="row align-items-center h_130">
+                            <div class="col-md-6 py-3" id="order2">
+                                <div>
+                                    <h1 class="text-white d-inline-block">Boolean</h1>
+                                    <span class="badge rounded-pill text-bg-primary inline-block bg_blaze">Piano Blaze</span>
+                                </div>
+                                <span class="badge rounded-pill text-bg-secondary inline-block bg_blaze ">3 app</span>
+                                <i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>
+                                <span class="badge rounded-pill text-bg-success inline-block  bg_blaze">Boolean mobile app</span>
+                                <span class="badge rounded-pill text-bg-success inline-block  bg_blaze">Boolean web app</span>
+                                <span class="badge rounded-pill text-bg-success inline-block bg_blaze">Boolean blog app</span>
+                                <span class="badge rounded-pill text-bg-success inline-block bg_blaze">+</span>                                    
+                            </div>
+                            <div class="col-md-3 mt_1rem" id="order3">
+                              <div>
+                                <span class="text-white">Studenti online negli ultimi 30 minuti</span>
+                                <h2 class="text-white">125</h2>
+                              </div>
+                            </div>
+                              <div class="col-md-3 text-center" id="order1">
+                                
+                                <div class="mt_1rem">
+                                  <span class="text-white mr_15">Nuovo Studente</span>
+                                    <!--toggle-button-->
+                                    <button class="btn btn-primary border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                </div>
+                              </div>
                         </div>
-                      </div>
+                    </div>
                 </section>
+                    
+                          
                 <div class="container-fluid">
 
                     <div id="dashboard" class="row">

@@ -32,6 +32,10 @@ main{
     flex-grow: 1;
 }
 
+.bg_blaze{
+    background-color: #1352b1;
+}    
+
 /*Sidebar*/
 
 #sidebar{
@@ -131,7 +135,7 @@ input{
    padding-left: 35px;   
 }
 
-.mr_10{
-    margin-right: 10px;
+.mr_15{
+    margin-right: 15px;
 }
 
