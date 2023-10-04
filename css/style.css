@@ -157,3 +157,7 @@ tr td:first-child i{
     border: 1px solid grey;
     margin-right: 5px;
 }
+
+.graph{
+    width: 100%;
+}
