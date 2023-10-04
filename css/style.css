@@ -35,8 +35,8 @@ main{
 /*Sidebar*/
 
 #sidebar{
-    width: 150px;
-    height: 100%;
+    /*width: 150px;
+    height: 100%;*/
     background-color: var(--color-side-bar);
     background-image: url("../img/sidebar-bg.png");
     display: flex;
