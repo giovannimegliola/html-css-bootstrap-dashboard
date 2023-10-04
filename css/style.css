@@ -161,3 +161,58 @@ tr td:first-child i{
 .graph{
     width: 100%;
 }
+
+
+/* MOBILE */
+
+@media screen and (max-width: 576px) {
+
+    #sidebar{
+        width: 80px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .mobile_logo{
+        display: block;
+        height: 40px;
+    }
+
+    #order2 { order: 2; }
+    #order3 { order: 3; }
+    #order1 { order: 1; }
+
+    .d_none{
+        display: none;
+    }
+
+}
+
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+
+    #sidebar{
+        width: 80px;
+    }
+    
+    .logo{
+        display: none;
+    }
+
+    .mobile_logo{
+        display: block;
+        height: 40px;
+    }
+
+    .d_none{
+        display: none;
+    }
+
+    .textleft{
+        text-align: left;
+    }
+   
+}
